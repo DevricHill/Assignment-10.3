@@ -87,7 +87,7 @@ namespace Assignment_10._3
                 txtMake.Text = car.Make.ToString();
                 txtModel.Text = car.Model.ToString();
                 txtYear.Text = car.Year.ToString();
-                txtPrice.Text = $"{car.Price:C}";
+                txtPrice.Text = car.Price.ToString();
 
                 btnUpdate.IsEnabled = true;
                 btnSubmit.IsEnabled = false;
